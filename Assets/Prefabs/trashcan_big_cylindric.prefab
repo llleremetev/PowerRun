@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2681199341882385980}
   - component: {fileID: 6107147597767039186}
   - component: {fileID: 4695951163328177046}
+  - component: {fileID: -4685275019993927823}
   m_Layer: 0
   m_Name: trashcan_big_cylindric
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &-4685275019993927823
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484051190796962151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6758096230912336544, guid: a14edd0dec5474943b1f08bf8f9d8e69, type: 3}

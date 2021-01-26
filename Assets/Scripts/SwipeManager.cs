@@ -43,7 +43,7 @@ public class SwipeManager : MonoBehaviour
     {
         instance = this;
         heroRB = player.GetComponent<Rigidbody>();
-        jump = new Vector3(0, 2.5f, 0);
+        jump = new Vector3(0, 1f, 0);
     }
 
     void Update()
